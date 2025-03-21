@@ -3,7 +3,7 @@ import numpy as np
 import os
 import csv
 
-output_pie_charts = r'C:/Users/qw2/Desktop/Central_Australia_Fire_Mapping/Output_CSVs/Pie_Charts/JPEGS'
+output_pie_charts = r'Central_Australia_Fire_Mapping/Output_CSVs/Pie_Charts/JPEGS'
 
 def make_pie_chart(fy, val_list):
     plt.clf()
@@ -26,7 +26,7 @@ def make_pie_chart(fy, val_list):
 # vals = [71.64, 18.55, 0.63, 9.19]
 # make_pie_chart(fy, vals)
 
-breakdown_csv = r'C:/Users/qw2/Desktop/Central_Australia_Fire_Mapping/Output_CSVs/FY_Fire_Breakdown.csv'
+breakdown_csv = r'Central_Australia_Fire_Mapping/Output_CSVs/FY_Fire_Breakdown.csv'
 csv_file = open(breakdown_csv, mode='r', newline='')
 reader = csv.reader(csv_file, delimiter=',')
 
