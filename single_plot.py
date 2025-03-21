@@ -3,7 +3,7 @@ import numpy as np
 import os
 import csv
 
-breakdown_csv = r'C:/Users/qw2/Desktop/Central_Australia_Fire_Mapping/Output_CSVs/Land_Use_Burnt_by_FY.csv'
+breakdown_csv = r'Central_Australia_Fire_Mapping/Output_CSVs/Land_Use_Burnt_by_FY.csv'
 csv_file = open(breakdown_csv, mode='r', newline='')
 reader = csv.reader(csv_file, delimiter=',')
 
@@ -45,7 +45,7 @@ plt.xticks(fontsize=6, rotation=90)
 plt.yticks(np.arange(0, 50, step=10), fontsize=12)
 plt.gca().yaxis.grid(linestyle='dashed')
 #plt.show()
-save_path = r'C:/Users/qw2/Desktop/Central_Australia_Fire_Mapping/Output_CSVs/Pcnt_All_FYs.png'
+save_path = r'Central_Australia_Fire_Mapping/Output_CSVs/Pcnt_All_FYs.png'
 plt.savefig(save_path, dpi=1000, bbox_inches='tight')
 
 print('Done')
