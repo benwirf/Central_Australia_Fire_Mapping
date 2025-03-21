@@ -1,7 +1,7 @@
 import os
 
-folder_path = r'/home/ben/DITT/Central_Australia_Fire_Mapping/Sth_NT_Fire_Scars_by_FY/Fixed'
-save_path = r'/home/ben/DITT/Central_Australia_Fire_Mapping/Sth_NT_Fire_Scars_by_FY/fixed_again'
+folder_path = r'Central_Australia_Fire_Mapping/Sth_NT_Fire_Scars_by_FY/Fixed'
+save_path = r'Central_Australia_Fire_Mapping/Sth_NT_Fire_Scars_by_FY/fixed_again'
 
 for file in os.scandir(folder_path):
     # print(file.name)
