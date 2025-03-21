@@ -3,7 +3,7 @@ import numpy as np
 import os
 import csv
 
-output_bar_charts = r'C:/Users/qw2/Desktop/Central_Australia_Fire_Mapping/Output_CSVs/Bar_Charts'
+output_bar_charts = r'Central_Australia_Fire_Mapping/Output_CSVs/Bar_Charts'
 
 def make_bar_chart(fy, val_list):
     plt.clf()
@@ -33,7 +33,7 @@ def make_bar_chart(fy, val_list):
 # vals = [26.6, 7.8, 7.7]
 # make_bar_chart(fy, vals)
 
-breakdown_csv = r'C:/Users/qw2/Desktop/Central_Australia_Fire_Mapping/Output_CSVs/Land_Use_Burnt_by_FY.csv'
+breakdown_csv = r'Central_Australia_Fire_Mapping/Output_CSVs/Land_Use_Burnt_by_FY.csv'
 csv_file = open(breakdown_csv, mode='r', newline='')
 reader = csv.reader(csv_file, delimiter=',')
 
